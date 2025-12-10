@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kaseki.Domain\Kaseki.Domain.csproj" />
+	<PackageReference Include="MediatR" Version="14.0.0" />
+	<PackageReference Include="FluentValidation" Version="12.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Models\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\" />
+    <Folder Include="Projects\Commands\" />
+    <Folder Include="Projects\Queries\" />
+    <Folder Include="Templates\Commands\AddModule\" />
+    <Folder Include="Templates\Commands\CreateProject\" />
+    <Folder Include="Templates\Queries\" />
+    <Folder Include="Templates\" />
+  </ItemGroup>
+
+</Project>

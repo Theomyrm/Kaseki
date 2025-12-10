@@ -3,9 +3,9 @@
   <Folder Name="/templates/" />
   <Folder Name="/tests/" />
   <Folder Name="/tools/" />
-  <Project Path="src/Kaseki.Application/Kaseki.Application/Kaseki.Application.csproj" Id="635fc0c2-a13a-422b-8bc8-fc37c6f40c26" />
+  <Project Path="Kaseki.Application/Kaseki.Application.csproj" Id="1ec818a0-cbcc-4bc2-8eab-48185a6a1cb6" />
+  <Project Path="Kaseki.Domain/Kaseki.Domain.csproj" Id="c1a2683a-bde7-44a0-9184-ff9161b5c85e" />
+  <Project Path="Kaseki.Infrastructure/Kaseki.Infrastructure.csproj" Id="13f82255-85a4-418d-bae5-a62fa290d52e" />
+  <Project Path="Kaseki.Shared/Kaseki.Shared.csproj" Id="788b6b91-3e38-41b4-927d-f8d4dfda5240" />
   <Project Path="src/Kaseki.AvanoloniaUI/Kaseki.AvaloniaUI.csproj" />
-  <Project Path="src/Kaseki.Domain/Kaseki.Domain/Kaseki.Domain.csproj" Id="1a157e27-cc98-483f-b6f3-9d97f415b21b" />
-  <Project Path="src/Kaseki.Infrastructure/Kaseki.Infrastructure/Kaseki.Infrastructure.csproj" Id="62b9051d-e001-448f-92ab-a0d366ca32e5" />
-  <Project Path="src/Kaseki.Shared/Kaseki.Shared/Kaseki.Shared.csproj" Id="e96ef67f-c4d0-41f6-a9d8-cb4d5562c531" />
 </Solution>
